@@ -98,5 +98,5 @@ function calculateLargestCategory() {
 //Gastos agregados al presupuesto
 function addExpenseEntry(valores) {
   expenseEntries.push(valores);
-  totalExpressValue += valores[1];
+  totalExpensesValue += valores[1];
 }
